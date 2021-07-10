@@ -1,3 +1,3 @@
 # PaginaWebScesi
 
-## Estilos agregados a maquetado pagina web Nemium
+## Estilos agregados a pagina web Nemium
