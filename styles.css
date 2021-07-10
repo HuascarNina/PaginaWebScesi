@@ -1,0 +1,233 @@
+html {
+    font-size: 16px;
+}
+
+body{
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70, 31px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 24px;
+    line-height: 23px;
+}
+
+a {
+    color: #616161;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    margin: 10px;
+}
+
+/*Estilos del header*/
+
+.header {
+    position: absolute;
+    width: 1349px;
+    height: 232px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(3.36deg, #212325 -63.62%, rgba(255, 255, 255, 0) 43.49%), url(./assets/images/patron-1.png);
+}
+
+/*Estilos del aside*/
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 208px;
+    height: 536px;
+    left: 80px;
+    top: 284px;
+    color: #616161;
+}
+
+.aside-title {
+    text-transform: uppercase;
+}
+
+.theme-list {
+    position: static;
+    width: 66px;
+    height: 200px;
+    left: 8px;
+    top: 8px;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.active {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    position: static;
+    width: 188px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 4px;
+    
+}
+
+ol {
+    line-height: 30px;
+}
+
+/*Estilos del main*/
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    position: relative;
+    display: inline-block;
+    color: #424242;
+    border-bottom:  solid #616161;
+    top: 30px;
+    right: 102px;
+    font-size: 24px;
+}
+
+.parrafo__h1 {
+    position: relative;
+    bottom: 30px;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 902px;
+    height: 134px;
+    left: 348px;
+    top: 260px;
+    line-height: 35px;
+}
+
+#html, #tags, #dom, #semantic, #attributes, #css, #caja, #propiedades_fisicas, #propiedades_logicas, .form__title{
+    left: 1px;
+}
+
+blockquote {
+    font-size: 24px;
+    line-height: 32px;
+    color: #424242;
+    border-left: solid #616161;
+    padding-left: 25px;
+}
+
+#codigo {
+    background: #FEC62E;
+    padding: 40px;
+    text-align: left;
+}
+
+#modelo__caja {
+    position: relative;
+    right: 21px;
+}
+
+#propiedad-lista {
+    position: relative;
+    list-style-type: disc;
+    left: 20px;
+}
+
+.programador {
+    position: relative;
+    right: 10px;
+    height: 500px;
+    width: 900px;
+}
+
+.email-link {
+    color: #000000;
+}
+
+/*Estilos del formulario*/
+
+.form__title {
+    position: static; 
+}
+
+input {
+    position: relative;
+    width: 160px;
+    top: 80px;
+    right: 340px;
+    padding: 15px;
+    border-color: #424242;
+    border-radius: 50px;
+    border-style: solid;
+}
+
+.btn {
+    position: relative;
+    right: 386px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+
+
+/*Estilos del footer*/
+
+.footer {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: -6000px;
+    height: 120px;
+    background: #212429;
+}
+
+.footer__title {
+    position: relative;
+    width: 366px;
+    height: 38px;
+    left: 35%;
+    top: 20%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.footer__links {
+    position: absolute;
+    left: 42%;
+    top: 50%;
+
+}
+
+
+
+
+
+
